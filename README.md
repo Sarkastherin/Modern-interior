@@ -8,11 +8,11 @@
 
 <div align="center">
   <h3>
-    <a href="https://{your-demo-link.your-domain}">
+    <a href="https://gallant-sammet-292496.netlify.app/">
       Demo
     </a>
     <span> | </span>
-    <a href="https://{your-url-to-the-solution}">
+    <a href="https://gallant-sammet-292496.netlify.app/">
       Solution
     </a>
     <span> | </span>
@@ -60,7 +60,6 @@ This application/site was created as a submission to a [DevChallenges](https://d
 <!-- This section should list any articles or add-ons/plugins that helps you to complete the project. This is optional but it will help you in the future. For exmpale -->
 
 - [CSS arismético: exprimiendo calc()](https://octuweb.com/css-aritmetico-exprimiendo-calc/)
-- [Font Aweson](https://fontawesome.com/)
 - [Google Fonts](https://fonts.google.com/)
 
 ## Contact

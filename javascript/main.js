@@ -4,8 +4,12 @@ const body = document.getElementById('intoMenu').innerHTML;
 function showMenu(){
     const menu = document.getElementById('menu').innerHTML;
     document.getElementById('intoMenu').innerHTML = 
-    `<div class="menu-hidden"><button onclick="closeMenu()"><i class="fas fa-times"></i></button>
-    ${menu}</div>`
+    `<div class="menu-hidden">
+    <button onclick="closeMenu()">
+        <img src="./img/icon/x-close-delete.svg" alt="">
+    </button>
+    ${menu}
+    </div>`
 }
 /* FUNCTION TO CLOSE THE MENU AND RETURN TO THE SAME MAIN PAGE */
 function closeMenu(){
