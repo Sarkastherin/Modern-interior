@@ -1,0 +1,180 @@
+ header,main,footer {
+    margin-left: 0;
+    margin-right: 0;
+}
+/* MAIN STRUCTURE */
+body{
+    font-family: 'Montserrat', sans-serif;
+    background-color: #181719;
+    color: #ffffff;
+    margin: 3vw 5.3vw 2vw;
+}
+main {
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    margin: auto;
+}
+footer{
+    margin-top: 5rem;
+    width: 100%;
+    text-align: center;
+    font-size: .8rem;
+    color: #A9A9A9;
+}
+
+/* HEADER */
+.nvbar{
+    display: flex;
+    align-items: center;
+}
+.button{
+    text-decoration: none;
+    color: #ffffff;
+    border: #ffffff solid 1px;
+    padding: 8px;
+    font-family: 'Crimson Pro', serif;
+    text-transform: uppercase;
+    font-size: 14px;
+}
+
+.menu {
+    margin-left: auto;
+    float: right;
+}
+.menu ul {
+    margin: 0;
+}
+.menu li {
+    margin-left: 6vw;
+    display: inline;
+    font-size: calc(.7rem + .5vw);
+}
+.link-active{
+    border-bottom: #ffffff 2px solid;
+    padding-bottom: .5rem;
+    font-weight: 700;
+}
+/* MAIN */
+.ppal-description{
+    width: 45%;
+}
+/* Description */
+.ppal-description h1{
+    font-family: 'Lora', serif;
+    font-weight: 500;
+    font-size: calc(1.9rem + 1.1vw); 
+}
+.ppal-description p {
+    width: 76%;
+    font-size: calc(.65rem + .95vw);
+    margin: 1.7em 0em;
+}
+.ppal-description span {
+    display: flex;
+    align-items: center;
+    font-size: calc(.75rem + .4vw);
+    font-weight: 700;
+    margin-bottom: 1em;
+}
+.ppal-description span i{
+    padding-left: .5em;
+    font-size: 1.5em;
+}
+/* Graphyc */
+.ppal-graphyc{
+    width: 55%;
+    position: relative;
+}
+/* card */
+.card{
+    background-color: #181719;
+    position: absolute;
+    right: 5%;
+    top: 85%;
+    width: 45%;
+    min-width: 300px;
+    box-shadow: -1px 2px 2px 3px rgba(0, 0, 0, 0.2);
+}
+.card-header{
+    padding: 1rem;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+.card-header img {
+    width: 20%;
+    min-width: 50px;
+    border-radius: 50%;
+}
+.caption-header{
+    font-size: .9rem;
+    padding-left: 1.5rem;
+}
+.job-title{
+    font-size: .8rem;
+    color: #828282;
+    display: block;
+}
+.card-desc{
+    font-family: 'Lora', serif;
+    padding: 0rem 5rem 1rem 1rem;
+    font-size: 1.2rem;
+}
+.menu-button {
+    display: none;
+}
+
+@media (max-width:767px) {
+    .principal{
+        flex-direction: column;
+        max-width: 450px;
+    }
+    .ppal-description {
+        width: 100%;
+    }
+    .ppal-graphyc{
+        width: 100%;
+    }
+    .menu{
+        display: none;
+    }
+    .menu-button{
+        margin-left: auto;
+        float: right;
+        display: block;
+    }
+    .menu-button button {
+        background: none;
+        color: #ffffff;
+        border: none;
+        font-size: 1.5rem;
+    }
+    .menu-hidden button {
+        position: fixed;
+        top: 3vw;
+        right: 5vw;
+        background:none;
+        color: #ffffff;
+        border: none;
+        font-size: 1.5rem;
+    } 
+    .menu-hidden ul{
+        height: 100vh;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        margin: auto;
+        list-style: none;
+        padding: 0;
+    }   
+    .menu-hidden ul li {
+        font-size: 18px;
+        margin-bottom: 24px;
+    }
+    
+}

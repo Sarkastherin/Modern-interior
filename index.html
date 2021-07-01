@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="./style/style.css">
+  <title>Interior Consultant</title>
+  <!-- FONTS -->
+  <style>
+    @import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+    @import url('https://fonts.googleapis.com/css2?family=Lora:wght@500&display=swap');
+    @import url('https://fonts.googleapis.com/css2?family=Crimson+Pro:wght@200&display=swap');
+  </style>
+  <!-- FONTAWESON -->
+  <link rel="stylesheet" href="./node_modules/@fortawesome/fontawesome-free/css/all.css">
+</head>
+<body id="intoMenu">
+  <header>
+    <div class="nvbar">
+      <a class="button" href="#thisInterior">this interior</a>
+      <div class="menu-button">
+        <button onclick="showMenu()"><i class="fas fa-bars"></i></button>
+      </div>
+      <div class="menu" id="menu">
+        <ul>
+          <li class="link-active">Home</li>
+          <li>Collection</li>
+          <li>About</li>
+          <li>Contact</li>
+        </ul>
+      </div>
+    </div>
+  </header>
+  <main class="principal">
+    <div class="ppal-description">
+      <h1>Modern interior</h1>
+      <p>A full-Service residential & commercial interior design and staging company offering professional organizing & eco-services.</p>
+      <span>Read more<i class="fas fa-long-arrow-alt-right"></i></span>
+    </div>
+    <div class="ppal-graphyc">
+      <img src="./img/photo1.png" width="100%">
+      <div class="card">
+        <div class="card-header">
+          <img src="./img/photo2.png">
+          <div class="caption-header">
+            <span>Aliza Webber</span>
+            <span class="job-title">Interior designer</span>  
+          </div>
+        </div>
+        <div class="card-desc">Designer in 2020 by Aliza Webber
+        </div>
+      </div>
+    </div>
+  </main>
+  <footer>
+    <span>created by <b>@sarkastherin</b> - devChallenges.io</span>
+  </footer>
+  <script src="./javascript/main.js"></script>
+</body>
+</html>
