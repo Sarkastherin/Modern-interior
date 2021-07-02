@@ -38,7 +38,7 @@
 
 ![screenshot](SS-moderInterior.png)
 
-In this project, I used [HTML], [CSS] and [Javascript]. Is a page with a *responsive design*, and in the mobile version its menu is hidden and is shown when a button is clicked. <br> When the menu is displayed fills the entire screen.
+In this project, I used [HTML], [CSS] and [Javascript]. Is a page with a *responsive design*, and in the mobile version its menu is hidden and is shown when a button is clicked. When the menu is displayed fills the entire screen.
 I enjoyed do this project. I practiced how I can organize the HTML content  in different screen sizes, also, learned more about responsive `font-size` and how I can used it in a same sheetstyle and screen (CSS). I coud played with de javascript file, I really enjoy doing code. This is a solution that I can reuse and it is now in my portafolio.
 
 ### Built With
